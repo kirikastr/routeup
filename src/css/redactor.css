@@ -1,0 +1,85 @@
+.t1{
+	color: #000;
+	font-family: Inter;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 64px;
+	margin-left: 64px;
+}
+.t2{
+	color: #000;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin-left: 82px;
+}
+
+.input{
+	border-radius: 5px;
+	border: 1px solid #000;
+	width: 547px;
+	height: 50px;
+	margin-left: 82px;
+	margin-top: 16px;
+	color: #000;
+	font-family: Inter;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	padding: 16px;
+}
+
+.avatar-cont{
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	margin-top: 167px;
+	margin-left: 128px;
+}
+
+.avatar-style{
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+}
+
+.file{
+	border-radius: 50px;
+	border: 1px solid #000;
+	width: 275px;
+	height: 60px;
+}
+
+.custom-file-upload div {
+	border-radius: 50px;
+	border: 1px solid #000;
+	margin-left: 40px;
+	width: 275px;
+	height: 60px;
+}
+
+.custom-file-upload span {
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	margin-top: 18px;
+}
+
+.custom-file-upload input[type="file"] {
+  	display: none;
+
+}
