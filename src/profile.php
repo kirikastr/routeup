@@ -53,7 +53,7 @@
 				<!-- left -->
 				<div class="w-[360px] ml-[55px] -translate-y-[144px]">
 					<div class="w-[360px] h-[360px] rounded-full bg-white shadow-2xl pl-[73px] pt-[73px]">
-						<img src="<? echo $_GET['logo'] ?>" class="w-[214px]" alt="">
+						<img src="./assets/<? echo $_GET['logo'] ?>" class="w-[214px]" alt="">
 					</div>
 					<h1 class="text-[36px] mt-4 font-light font-inter">Подробнее</h1>
 					<p class="text-2xl font-extralight font-inter mt-6"><? echo $_GET['aboutme'] ?></p>
@@ -75,7 +75,7 @@
 
 				<!-- Right -->
 				<div class="w-[1354px] ml-[18px] pt-[53px]">
-					<h1 class="text-5xl font-inter"><? echo $_GET['name']; echo $_GET['lastname'] ?></h1>
+					<h1 class="text-5xl font-inter"><? echo $_GET['name']; echo " "; echo $_GET['lastname'] ?></h1>
 					<h1 class="text-5xl font-inter font-light mt-[43px]">Недавняя активность</h1>
 					<div class="w-[996px] h-[53px] bg-[#3A8DD9] rounded-[20px] pt-[11px] pl-4 mt-[15px]">
 						<h1 class="text-2xl font-medium text-white">Новая публикация</h1>
