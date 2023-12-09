@@ -35,6 +35,10 @@
 							class="font-medium text-2xl text-white relative after:absolute after:h-[1px] after:w-full after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Карта</a>
 					</li>
 					<li>
+						<a href="https://goo.su/lfL4R"
+							class="font-medium text-2xl text-white relative after:absolute after:h-[1px] after:w-full after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Путешествия</a>
+					</li>
+					<li>
 						<a href="talk.php"
 							class="font-medium text-2xl text-white relative after:absolute after:h-[1px] after:w-full after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Сообщество</a>
 					</li>
@@ -47,7 +51,7 @@
 			</nav>
 
 			<!-- Actions -->
-			<div class="flex items-center gap-[30px] " style="margin-left: 250px;">
+			<div class="flex items-center gap-[30px] ">
 				<a href="auth.php"
 					class="text-white font-medium text-2xl leading-normal border-[3px] border-white py-2 px-9 bg-transparent">Войти</a>
 			</div>
